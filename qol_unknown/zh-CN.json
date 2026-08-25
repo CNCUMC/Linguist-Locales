@@ -1,0 +1,19 @@
+{
+  "qol": {
+    "qoloptionsbutton.qoloptionslist.toggle_qol_audio_safety.label": "音频安全",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_autosave.label": "自动保存",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_craft_bulk.label": "批量制作",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_game_modifiers.label": "图层修改器",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_game_pusher.label": "水体物理",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_game_soundcannon_indicator.label": "声波炮指示器",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_inv_liquid.label": "库存快捷键",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_inv_quickstash.label": "快速存放",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_inv_sortbtn.label": "排序按钮",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_save_menu.label": "存档菜单",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_timer.label": "计时器",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_ui_discord.label": "Discord 状态",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_ui_preview.label": "制作预览",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_ui_scroll.label": "容器滚轮",
+    "qoloptionsbutton.qoloptionslist.toggle_qol_vis_los.label": "视线修复"
+  }
+}

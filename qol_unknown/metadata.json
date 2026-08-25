@@ -2,5 +2,22 @@
   "guid": "org.bepinex.plugins.qol_unknown",
   "namespace": "qol_unknown",
   "updated": "2026-08-25T19:15:00Z",
-  "languages": [ "zh-CN", "zh-TW", "EN" ]
+  "languages": [ "zh-CN", "zh-TW", "EN" ],
+  "map": {
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_audio_safety/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_audio_safety.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_autosave/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_autosave.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_craft_bulk/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_craft_bulk.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_game_modifiers/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_game_modifiers.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_game_pusher/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_game_pusher.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_game_soundcannon_indicator/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_game_soundcannon_indicator.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_inv_liquid/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_inv_liquid.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_inv_quickstash/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_inv_quickstash.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_inv_sortbtn/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_inv_sortbtn.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_save_menu/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_save_menu.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_timer/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_timer.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_ui_discord/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_ui_discord.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_ui_preview/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_ui_preview.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_ui_scroll/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_ui_scroll.label",
+    "Canvas/QoLOptionsButton/QoLOptionsList/Toggle_qol_vis_los/Label": "qoloptionsbutton.qoloptionslist.toggle_qol_vis_los.label"
+  }
 }
