@@ -1,19 +1,76 @@
 {
-  "qol": {
-    "qoloptionsbutton.qoloptionslist.toggle_qol_audio_safety.label": "音频安全",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_autosave.label": "自动保存",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_craft_bulk.label": "批量制作",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_game_modifiers.label": "图层修改器",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_game_pusher.label": "水体物理",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_game_soundcannon_indicator.label": "声波炮指示器",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_inv_liquid.label": "库存快捷键",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_inv_quickstash.label": "快速存放",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_inv_sortbtn.label": "排序按钮",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_save_menu.label": "存档菜单",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_timer.label": "计时器",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_ui_discord.label": "Discord 状态",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_ui_preview.label": "制作预览",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_ui_scroll.label": "容器滚轮",
-    "qoloptionsbutton.qoloptionslist.toggle_qol_vis_los.label": "视线修复"
+  "Canvas/": {
+    "MenuBackground/QoL_Fruit/Text": "QoL 设置",
+    "QoLOptionsButton/QoLOptionsList/Toggle_qol_": {
+      "audio_safety/Label": "音频安全\n<color=#aaaaaa><size=80%>减少响亮而尖锐的声音播放</size></color>",
+      "autosave/Label": "自动保存\n<color=#aaaaaa><size=80%>在游戏过程中自动保存游戏进度</size></color>",
+      "craft_bulk/Label": "批量制作\n<color=#aaaaaa><size=80%>增加制作数量并自动制作</size></color>",
+      "game_modifiers/Label": "层级修饰符\n<color=#aaaaaa><size=80%>启用/禁用层级修饰符</size></color>",
+      "game_pusher/Label": "水体物理\n<color=#aaaaaa><size=80%>1.5 格水不再推得动你</size></color>",
+      "game_soundcannon_indicator/Label": "音波炮指示器\n<color=#aaaaaa><size=80%>通过发言和箭头警示正在充能的音波炮</size></color>",
+      "inv_liquid/Label": "物品栏辅助键\n<color=#aaaaaa><size=80%>添加 Shift 交互和可配置的物品栏交互辅助键</size></color>",
+      "inv_quickstash/Label": "快速收纳\n<color=#aaaaaa><size=80%>使用快速收纳快捷键立即拾取物品</size></color>",
+      "inv_sortbtn/Label": "一键整理\n<color=#aaaaaa><size=80%>添加用于整理物品的按钮</size></color>",
+      "save_menu/Label": "存档菜单\n<color=#aaaaaa><size=80%>在暂停菜单添加存档栏选择菜单</size></color>",
+      "timer/Label": "计时器\n<color=#aaaaaa><size=80%>在暂停菜单中添加计时器</size></color>",
+      "ui_discord/Label": "Discord 状态\n<color=#aaaaaa><size=80%>Discord RPC 集成（连不上 Discord 的话会导致报错刷屏）</size></color>",
+      "ui_preview/Label": "制作预览\n<color=#aaaaaa><size=80%>增强制作菜单中的物品预览</size></color>",
+      "ui_scroll/Label": "容器滚轮\n<color=#aaaaaa><size=80%>为容器添加滚轮滚动支持</size></color>",
+      "vis_los/Label": "视线阴影修复\n<color=#aaaaaa><size=80%>调整视线着色器，避免在黑暗中描绘出未探明物块的轮廓</size></color>"
+    },
+    "SettingsMenu(Clone)/Panel/": {
+      "SettingsTab_Mods/Text": "模组",
+      "Scroll/Viewport/Content/": {
+        "qol.audio.soundoverride/": {
+          "Label": "独立音频覆盖",
+          "QoLSoundOverridePlay/Label": "播放",
+          "Dropdown/": {
+            "Label": "选择…",
+            "Dropdown List/Viewport/Content/Item 0: Select.../Item Label": "选择…"
+          }
+        },
+        "GameSettingFloat(Clone)/Label&": {
+          "UI Scale": "UI 缩放",
+          "Intensity": "亮度强度",
+          "Effect %": "屏幕效果",
+          "Anti-Epilepsy": "抗癫痫"
+        },
+        "GameSettingBool(Clone)/Label&": {
+          "Anti-Epilepsy": "抗癫痫"
+        }
+      },
+      "GameSettingBool(Clone)/Label&": {
+        "Anti-Epilepsy": "抗癫痫",
+        "Skill point allocation": "技能分配",
+        "Faster minigames": "快速小游戏",
+        "Disable unchipped line of sight": "禁用未探明线的轮廓",
+        "Disable radline": "禁用辐射线",
+        "Delete autosave on death": "死亡后删除自动保存的存档",
+        "Autosave on exit": "退出游戏时自动保存",
+        "Skip exit animation": "跳过退出动画",
+        "V6 Titanium Generation": "V6 钛矿生成"
+      }
+    }
+  },
+  "GlobalDark(Clone)/": {
+    "MouseOver/": {
+      "DescBack/Description&": {
+        "Controls the maximum brightness of in-world lights. Similar to the V6 brightness slider (with a higher range).": "控制世界内灯光的最大亮度。类似于V6亮度滑块（具有更高的范围）",
+        "Scales screen effect intensity.": "调整屏幕效果强度",
+        "Adjusts UI scale across menus and overlays.": "调整菜单和覆盖层的UI缩放",
+        "Shows the QoL FPS counter overlay.": "显示QoL的FPS计数器覆盖层",
+        "Adjust the volume of any specific sound": "调整任何特定声音的音量",
+        "Makes Ilmenite generate in earlier layers, similar to V6.": "使钛矿在更早的层生成，类似于V6" ,
+        "Reduces flashing and strobing effects.": "减少闪烁和抖动效果"
+      },  
+      "TitleBack/Title&": {
+        "Anti-Epilepsy": "抗癫痫",
+        "Intensity": "亮度强度",
+        "Effect %": "屏幕效果",
+        "Reduces flashing and strobing effects.": "减少闪烁和抖动效果",
+        "Individual Sound Overrides": "独立音频覆盖",
+        "V6 Titanium Generation": "V6钛矿生成"
+      }
+    }
   }
 }

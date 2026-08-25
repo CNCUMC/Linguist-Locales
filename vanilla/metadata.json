@@ -1,6 +1,6 @@
 {
-  "guid": "org.bepinex.plugins.qol_unknown",
-  "namespace": "qol_unknown",
+  "guid": "Casualties Unknown",
+  "namespace": "vanilla",
   "updated": "2026-08-25T19:15:00Z",
   "languages": [ "zh-CN", "zh-TW", "EN" ]
 }
